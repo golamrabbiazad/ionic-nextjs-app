@@ -31,11 +31,6 @@ export function HomeComponent() {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
         <ExploreContainer />
       </IonContent>
     </IonPage>

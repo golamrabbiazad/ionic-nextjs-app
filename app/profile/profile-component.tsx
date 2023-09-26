@@ -11,6 +11,7 @@ import {
 import { useEffect, useState } from "react";
 import { ProfileButton } from "@/components/profile-button";
 import Link from "next/link";
+import { ListofVideoGames } from "@/components/listof-video-games";
 
 setupIonicReact();
 
@@ -34,11 +35,7 @@ export function ProfileComponent() {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
+        <ListofVideoGames />
         <ProfileButton />
       </IonContent>
     </IonPage>

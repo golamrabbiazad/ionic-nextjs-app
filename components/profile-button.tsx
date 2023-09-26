@@ -3,5 +3,5 @@
 import { IonButton } from "@ionic/react";
 
 export function ProfileButton() {
-  return <IonButton color="primary">Profile Button</IonButton>;
+  return <IonButton color="primary">Create</IonButton>;
 }

@@ -9,16 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@capacitor/app": "5.0.6",
+    "@capacitor/core": "5.4.1",
+    "@capacitor/haptics": "5.0.6",
+    "@capacitor/keyboard": "5.0.6",
+    "@capacitor/status-bar": "5.0.6",
+    "@ionic/core": "^7.4.1",
+    "@ionic/react": "^7.4.1",
+    "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
+    "@capacitor/cli": "5.4.1",
+    "@ionic/cli": "^7.1.1",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "typescript": "latest"
   }
 }

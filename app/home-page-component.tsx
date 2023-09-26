@@ -8,7 +8,7 @@ import {
   IonToolbar,
   setupIonicReact,
 } from "@ionic/react";
-import { ExploreContainer } from "../components/explore-container";
+import { ExploreContainer } from "@/components/explore-container";
 import { useEffect, useState } from "react";
 
 setupIonicReact();
